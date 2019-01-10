@@ -3,5 +3,5 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8762/eureka/
   instance:
-    hostname: provider #主机别名
+    hostname: provider2 #主机别名
 env: dev
