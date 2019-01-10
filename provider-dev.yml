@@ -1,4 +1,4 @@
 eureka:
   instance:
-    hostname: provider #主机别名
+    hostname: dongqilin #主机别名
 env: dev
