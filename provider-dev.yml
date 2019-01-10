@@ -1,4 +1,1 @@
-eureka:
-  instance:
-    hostname: dongqilin #主机别名
 env: dev
