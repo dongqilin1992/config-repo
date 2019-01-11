@@ -1,10 +1,10 @@
 zuul:
   routes:
-    #api-a:
-      #path: /api-a/**
-      #serviceId: service-provider
+    api-a:
+      path: /api-a/**
+      serviceId: service-provider
     #简洁写法
-    service-provider: /api-a/**
+    #service-provider: /api-a/**
     api-b:
       path: /api-b/**
       serviceId: consumer
