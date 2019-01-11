@@ -1,0 +1,15 @@
+zuul:
+  routes:
+    #api-a:
+      #path: /api-a/**
+      #serviceId: service-provider
+    #简洁写法
+    service-provider: /api-a/**
+    api-b:
+      path: /api-b/**
+      serviceId: consumer
+      #关闭cookie过滤
+      #sensitiveHeaders:
+  #排除某些路由url
+  #ignored-patterns:
+    #- /**/hi
