@@ -1,7 +1,7 @@
 zuul:
   routes:
     api-a:
-      path: /api-c/**
+      path: /api-a/**
       serviceId: service-provider
     #简洁写法
     #service-provider: /api-a/**
